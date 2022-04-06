@@ -1,0 +1,26 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        server-addr: localhost:8847
+        #如果没有开启权限，用户名和密码可以不写
+        username: nacos
+        password: nacos
+        namespace: dev
+        #支持yaml 格式的配置文件;设置后，服务对应的配置文件必须加后缀
+        file-extension: yaml
+        #shared-configs: 可以指定多个，下标越大优先级越高
+        shared-configs:
+          - data-id: com.zhx.common.properties
+            #refresh: 如果修改自动刷新，默认为false
+            refresh: true
+            #group: 默认是DEFAULT_GROUP
+          - data-id: com.zhx.common02.properties
+              #refresh: 如果修改自动刷新，默认为false
+            refresh: true
+        extension-configs[0]:
+          data-id: com.zhx.common03.properties
+          refresh: true
+
+# 优先级
+# profile>默认配置文件(和服务名名字相同的配置文件)>extension-configs>shared-configs

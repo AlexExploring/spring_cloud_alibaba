@@ -1,0 +1,13 @@
+server:
+  port: 8024
+
+spring:
+  application:
+    name: product-service
+  cloud:
+    nacos:
+      server-addr: localhost:8847
+      discovery:
+        username: nacos
+        password: nacos
+        namespace: public
