@@ -2,13 +2,22 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/seata/alibaba-seata-order/alibaba-seata-order.iml" filepath="$PROJECT_DIR$/seata/alibaba-seata-order/alibaba-seata-order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata/alibaba-seata-stock/alibaba-seata-stock.iml" filepath="$PROJECT_DIR$/seata/alibaba-seata-stock/alibaba-seata-stock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/api-gateway/api-gateway.iml" filepath="$PROJECT_DIR$/api-gateway/api-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/config-nacos/config-nacos.iml" filepath="$PROJECT_DIR$/config-nacos/config-nacos.iml" />
       <module fileurl="file://$PROJECT_DIR$/order/order.iml" filepath="$PROJECT_DIR$/order/order.iml" />
       <module fileurl="file://$PROJECT_DIR$/order-loadbalancer/order-loadbalancer.iml" filepath="$PROJECT_DIR$/order-loadbalancer/order-loadbalancer.iml" />
       <module fileurl="file://$PROJECT_DIR$/order-nacos/order-nacos.iml" filepath="$PROJECT_DIR$/order-nacos/order-nacos.iml" />
       <module fileurl="file://$PROJECT_DIR$/order-openfeign/order-openfeign.iml" filepath="$PROJECT_DIR$/order-openfeign/order-openfeign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/order-openfeign-sentinel/order-openfeign-sentinel.iml" filepath="$PROJECT_DIR$/order-openfeign-sentinel/order-openfeign-sentinel.iml" />
       <module fileurl="file://$PROJECT_DIR$/order-ribbon/order-ribbon.iml" filepath="$PROJECT_DIR$/order-ribbon/order-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/order-sentinel/order-sentinel.iml" filepath="$PROJECT_DIR$/order-sentinel/order-sentinel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/order-sentinel-persistence/order-sentinel-persistence.iml" filepath="$PROJECT_DIR$/order-sentinel-persistence/order-sentinel-persistence.iml" />
       <module fileurl="file://$PROJECT_DIR$/product-nacos/product-nacos.iml" filepath="$PROJECT_DIR$/product-nacos/product-nacos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata/seata.iml" filepath="$PROJECT_DIR$/seata/seata.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata/seata-order/seata-order.iml" filepath="$PROJECT_DIR$/seata/seata-order/seata-order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata/seata-stock/seata-stock.iml" filepath="$PROJECT_DIR$/seata/seata-stock/seata-stock.iml" />
       <module fileurl="file://$PROJECT_DIR$/sentinel-demo/sentinel-demo.iml" filepath="$PROJECT_DIR$/sentinel-demo/sentinel-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring_cloud_alibaba.iml" filepath="$PROJECT_DIR$/spring_cloud_alibaba.iml" />
       <module fileurl="file://$PROJECT_DIR$/stock/stock.iml" filepath="$PROJECT_DIR$/stock/stock.iml" />

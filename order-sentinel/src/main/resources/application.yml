@@ -1,0 +1,12 @@
+server:
+  port: 8060
+spring:
+  application:
+    name: order-sentinel
+  cloud:
+    sentinel:
+      transport:
+        #控制台地址
+        dashboard: localhost:8070
+      #默认将调用链路收敛，设置为false ，使其展开，使流控模式中的链路模式可用
+      web-context-unify: false

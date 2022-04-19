@@ -1,0 +1,16 @@
+server:
+  port: 8088
+spring:
+  application:
+    name: api-gateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true # 是否启动自动识别nacos中的服务
+    # 配置nacos
+    nacos:
+      discovery:
+        server-addr: localhost:8847
+        username: nacos
+        password: nacos

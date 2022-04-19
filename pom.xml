@@ -12,6 +12,12 @@
         <module>order-openfeign</module>
         <module>product-nacos</module>
         <module>config-nacos</module>
+        <module>sentinel-demo</module>
+        <module>order-sentinel</module>
+        <module>order-openfeign-sentinel</module>
+        <module>order-sentinel-persistence</module>
+        <module>seata</module>
+        <module>api-gateway</module>
     </modules>
 
     <groupId>com.zhx.spring_cloud</groupId>
@@ -23,9 +29,9 @@
 
     <properties>
         <java.version>1.8</java.version>
-        <spring.boot.version>2.3.4.RELEASE</spring.boot.version>
+        <spring.boot.version>2.3.2.RELEASE</spring.boot.version>
         <spring.cloud.alibaba.version>2.2.6.RELEASE</spring.cloud.alibaba.version>
-        <spring.cloud.version>Hoxton.SR10</spring.cloud.version>
+        <spring.cloud.version>Hoxton.SR9</spring.cloud.version>
     </properties>
 
     <dependencies>

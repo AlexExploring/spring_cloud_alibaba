@@ -7,26 +7,45 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="order-sentinel" />
+        <module name="order-sentinel-persistence" />
+        <module name="alibaba-seata-order" />
+        <module name="order-nacos" />
+        <module name="product-nacos" />
+        <module name="alibaba-seata-stock" />
         <module name="order-loadbalancer" />
         <module name="sentinel-demo" />
+        <module name="seata-stock" />
+        <module name="api-gateway" />
         <module name="stock-nacos" />
-        <module name="order-nacos" />
+        <module name="order-openfeign-sentinel" />
+        <module name="seata-order" />
         <module name="order-openfeign" />
         <module name="config-nacos" />
         <module name="stock" />
-        <module name="product-nacos" />
         <module name="order" />
         <module name="order-ribbon" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="alibaba-seata-order" target="1.8" />
+      <module name="alibaba-seata-stock" target="1.8" />
+      <module name="api-gateway" target="1.8" />
       <module name="config-nacos" target="1.8" />
       <module name="order" target="1.8" />
       <module name="order-loadbalancer" target="1.8" />
       <module name="order-nacos" target="1.8" />
       <module name="order-openfeign" target="1.8" />
+      <module name="order-openfeign-sentinel" target="1.8" />
       <module name="order-ribbon" target="1.8" />
+      <module name="order-seata" target="8" />
+      <module name="order-sentinel" target="1.8" />
+      <module name="order-sentinel-persistence" target="1.8" />
+      <module name="order-stock" target="1.8" />
       <module name="product-nacos" target="1.8" />
+      <module name="seata" target="1.8" />
+      <module name="seata-order" target="1.8" />
+      <module name="seata-stock" target="1.8" />
       <module name="sentinel-demo" target="1.8" />
       <module name="spring_cloud_alibaba" target="1.8" />
       <module name="stock" target="1.8" />

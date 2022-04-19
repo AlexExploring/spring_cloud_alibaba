@@ -1,0 +1,20 @@
+server:
+  port: 8060
+spring:
+  application:
+    name: order-sentinel-persistence
+  cloud:
+    sentinel:
+      transport:
+        #控制台地址
+        dashboard: localhost:8070
+      #默认将调用链路收敛，设置为false ，使其展开，使流控模式中的链路模式可用
+      web-context-unify: false
+      datasource:
+        flow-rule: #名字可以自定义
+          nacos:
+            server-addr: 172.20.87.34:8847
+            username: nacos
+            password: nacos
+            dataId: order-sentinel-persistence-flow-rule
+            rule-type: flow

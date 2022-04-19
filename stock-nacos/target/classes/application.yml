@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: stock-service
+    name: stock-nacos
   cloud:
     nacos:
       server-addr: localhost:8847

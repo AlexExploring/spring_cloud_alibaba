@@ -1,0 +1,25 @@
+server:
+  port: 8088
+spring:
+  application:
+    name: api-gateway
+  cloud:
+    gateway:
+      #路由配置
+      routes:
+        - id: order_nacos_route #id 路由的唯一标识
+          uri: lb://order-nacos  #需要转发的服务  lb: 使用nacos中的本地负载均衡策略
+          predicates:
+            - Path=/order/**
+    # 配置nacos
+    nacos:
+      discovery:
+        server-addr: localhost:8847
+        username: nacos
+        password: nacos
+    # 配置sentinel
+    sentinel:
+      transport:
+        dashboard: localhost:8070
+      filter:
+        enabled: false
